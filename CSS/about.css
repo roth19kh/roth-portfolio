@@ -1,0 +1,45 @@
+.about-profile {
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  margin-top: 70px;
+  align-items: center;
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+}
+.about-profile hr {
+  vertical-align: middle;
+  margin-top: 60px;
+  width: 500px;
+  margin: auto;
+}
+.lerge-text-about {
+  max-width: 620px;
+  left: 0%;
+  right: 0%;
+  margin-left: 150px;
+  margin-top: 50px;
+  align-items: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.lerge-text-about h2 {
+  text-align: left;
+}
+.exp-text {
+  text-align: left;
+}
+.image-about {
+  margin-top: 400px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+#img-about {
+  width: 500px;
+  height: 200px;
+}

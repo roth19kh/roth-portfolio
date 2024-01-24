@@ -1,0 +1,26 @@
+.no-content {
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+  align-items: center;
+}
+.go-back-to-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px; /* This ensures it takes the full height of the viewport */
+}
+.a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 50px;
+  color: white;
+  border-color: #ffffff;
+  border-style: groove;
+  font-size: 18px;
+  border-radius: 30px;
+}
