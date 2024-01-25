@@ -5,6 +5,9 @@
   font-family: outfit, sans-serif;
   background-color: rgb(5, 5, 69);
 }
+li :hover {
+  color: #00549e;
+}
 .header {
   width: auto;
   height: 10vh;
