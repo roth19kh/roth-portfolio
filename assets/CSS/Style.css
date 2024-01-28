@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 * {
+  font-family: outfit, sans-serif;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: outfit, sans-serif;
   background-color: rgb(5, 5, 69);
 }
 li :hover {
@@ -24,6 +25,10 @@ nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 40px;
+}
+h2 {
+  color: #ffffff;
+  margin-bottom: 5px;
 }
 nav ul li a {
   text-decoration: none;
