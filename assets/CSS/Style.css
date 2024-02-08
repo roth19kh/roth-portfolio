@@ -4,7 +4,11 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  background-color: rgb(5, 5, 69);
+  color: #ffffff;
+}
+body {
+  background-color: hsl(262, 100%, 12%);
+  background-size: unset;
 }
 li :hover {
   color: #00549e;
@@ -100,5 +104,4 @@ nav ul li a {
 }
 .footer p {
   display: inline-block;
-  background-color: #00549e;
 }
