@@ -2,36 +2,42 @@
   box-sizing: border-box;
 }
 .warmper {
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
   margin: 5% auto;
   padding: 0 10%;
-  padding-bottom: 10px;
   text-transform: capitalize;
   color: white;
 }
-.container {
-  display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-}
 .box {
-  position: relative;
-  height: 300px;
+  height: 410px;
+  width: 300px;
   padding: 20px;
   text-align: center;
   border-radius: 5px;
-  background: aqua;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 2);
+  background: #00549e;
+  border-radius: 10px;
+  border-style: inset;
+}
+.box img {
+  margin-bottom: 5px;
+  width: 200px;
+  filter: drop-shadow(0px 0px 3px);
 }
 .box h3 {
-  color: rgb(23, 3, 77);
-  padding: 10px 0;
-  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 5spx 0;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
-.box p {
-  color: rgb(23, 3, 77);
-  font-size: 14px;
+.box ul {
+  margin-top: 10px;
+}
+.box li {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: left;
   line-height: 1.6;
 }
 .our-futures {
